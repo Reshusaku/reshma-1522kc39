@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>NEW LOGIN PAGE</title>
+<style>
+#new-div{
+background-color:violet;
+border=3px solid red;
+margin-left:100px;
+width:300px;
+height:300px;
+padding-left:150px;
+</style>
+<script>
+  function fun1()
+  {
+    var a= document.getElementById("uname").value;
+	if(a=="")
+	{
+	  alert("please full username");
+	}
+  }
+</script>
+</head>
+<body>
+<div id="new-div">
+<h1>LOGIN PAGE</h1>
+<table>
+<tr>
+<td>username:<input type="text" id="uname"></td>
+</tr>
+<td>password:<input type="text" id="pass"></td>
+</tr>
+<center>
+<td><input type="submit"value="register" onclick="fun1()"></td>
+</center>
+</tr>
+</table>
+</div>
+</body>
+</html>

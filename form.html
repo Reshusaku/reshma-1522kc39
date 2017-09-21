@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>TOURISM DETAILS</title>
+<style>
+#new-div{
+background-color:violet;
+border=3px solid red;
+margin-left:100px;
+width:300px;
+height:300px;
+padding-left:150px;
+</style>
+<script>
+  function fun1()
+  {
+    var a= document.getElementById("uname").value;
+	if(a=="")
+	{
+	  alert("please full username");
+	}
+  }
+</script>
+</head>
+<body>
+<div id="new-div">
+<h1>TOURISM DETAILS</h1>
+<table>
+<tr>
+<td>Planning:<input type="text" id="Plan"></td>
+</tr>
+<td>Preparation:<input type="text" id="Prepare"></td>
+</tr>
+<td>Post-Event:<input type="text" id="Event"></td>
+</tr>
+<center>
+<td><input type="submit"value="MORE INFORMATION" onclick="fun1()"></td>
+</center>
+</tr>
+</table>
+</div>
+</body>
+</html>
